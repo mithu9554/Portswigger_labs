@@ -1,1 +1,16 @@
-
+If we change the **Host:** header value to collaborator domain, we get a forbidden response.
+```http
+GET / HTTP/2
+Host: f4kyfymr73fchhwisozzgp173y9pxfl4.oastify.com
+Cookie: session=uD5Oq6coAHVEaugt4oQesXJOaM3yLurs; _lab=47%7cMC0CFQCLAW6vZWc5gkUN55J6cO5a4%2bE1lAIURkzVJJNB%2fN1Jxn0hIBZK9LBnQJcruSf5HbgZTSzg1fY%2fQRUvXmN33Ny8kQZK%2ft7W3xcnkKpvrwd0i8EFCcTJL0ZGS89hlPMvbuwfCgsIsty92zRcqKOX8WJ7RGMhQXdeF10ZpZ3auGzg
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/118.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate, br
+Upgrade-Insecure-Requests: 1
+Sec-Fetch-Dest: document
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Site: none
+Sec-Fetch-User: ?1
+Te: trailers
+```
