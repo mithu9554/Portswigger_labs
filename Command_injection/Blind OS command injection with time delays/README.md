@@ -15,7 +15,7 @@ The feedback form is as follows
 
 Captured request -> ![image](https://user-images.githubusercontent.com/67383098/225272577-7e45b33f-7dfd-4f79-ac41-3e1a1577477e.png)
 
-By adding the  ` & sleep # `  (Note the space before & and after #) / `||ping+-c+10+127.0.0.1|| & `(URL-encode before sending) , we can see that the `email` parameter is vulnerable to command injection vulnerability, since there was time delay of 10 seconds.
+By adding the  ` & sleep # `  (Note the space before & and after #) / `||ping+-c+10+127.0.0.1||` (URL-encode before sending) , we can see that the `email` parameter is vulnerable to command injection vulnerability, since there was time delay of 10 seconds.
 > By '#' we comment out the rest of the query. Since it is a bash script that is running in the background 
 REQUEST
 
