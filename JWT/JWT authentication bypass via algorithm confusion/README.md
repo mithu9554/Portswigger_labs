@@ -1,4 +1,4 @@
-## Lab: Exploiting a mass assignment vulnerability
+## JWT authentication bypass via algorithm confusion
 
 ##### Obtain the server's public key
 ``` /jwks.json ```
