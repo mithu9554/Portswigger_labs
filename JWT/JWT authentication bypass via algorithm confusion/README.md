@@ -1,4 +1,4 @@
-## JWT authentication bypass via algorithm confusion
+## Lab: JWT authentication bypass via algorithm confusion
 
 ##### Obtain the server's public key
 ``` /jwks.json ```
