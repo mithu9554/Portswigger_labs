@@ -7,3 +7,9 @@
 ```
 docker run --rm -it portswigger/sig2n <token1> <token2>
 ```
+
+linux commend
+```
+sudo systemctl start docker
+sudo service docker restart
+```
