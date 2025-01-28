@@ -21,7 +21,7 @@ To analyse these .git files we can use a tool called ![Git-dumper](https://githu
 1. Use the command - `python3 git_dumper.py https://0a1e0026040c2e3f8297b0dc00ec003c.web-security-academy.net/.git  websecurity/.` to save the files along with the .git directory in the folder of our choice in our linux machine.
    
 2. **git log** shows these two commit  logs.
-
+```$git log```
 ```git
 commit 63085ffc69c9cab7029684ec63ba9219cb96f851 (HEAD -> master)
 Author: Carlos Montoya <carlos@evil-user.net>
